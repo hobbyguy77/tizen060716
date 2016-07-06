@@ -3,7 +3,7 @@
     <access origin="http://www.3dnews.ru" subdomains="true"></access>
     <access origin="*" subdomains="true"></access>
     <tizen:application id="fWf5piqva7.BasicApplication" package="fWf5piqva7" required_version="2.3.1"/>
-    <content src="index.html"/>
+    <content src="jqm.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <feature name="http://tizen.org/feature/network.wifi"/>
     <icon src="icon.png"/>
