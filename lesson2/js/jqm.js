@@ -11,9 +11,9 @@ function seachRSS(){
 			if(results.rows.length == 0)
 				$("#searchResults").append('<li class="title">Nothing found</li>');
 			else{
-				for(i=0;i<results.rows.length;i++){
-					var item = results.rows.item[i];
-					$("#searchResults").append('<li class="title">'+ item['title'] +'</li>');
+				for(var i=0;i<results.rows.length;i++){
+					var item = results.rows.item(i);
+					$("#searchResults").append('<li class="title">'+ item['title'] +'</li><hr>');
 				}
 			}
 		}, function(e){console.log(e)});
